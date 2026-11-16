@@ -1,0 +1,8 @@
+# Install a platform-appropriate PyTorch + torchvision build first:
+# https://pytorch.org/get-started/locally/
+# degs_rebuild.py requires this exact Ultralytics version.
+ultralytics==8.4.92
+
+# Used directly by the reconstruction and experiment scripts.
+PyYAML>=6,<7
+numpy>=1.24,<3
