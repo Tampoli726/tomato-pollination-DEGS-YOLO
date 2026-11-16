@@ -1,0 +1,42 @@
+# Local Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Machine-specific dataset configuration and private image data
+dataset.yaml
+dataset/
+data/
+
+# Model checkpoints and exports; distribute separately if desired
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+
+# Training and evaluation outputs
+runs/
+runs_*/
+degs_runs/
+batch_summary/
+summary_dds/
+summary_seed3_repeat/
+tests_seed3_repeat/
+wandb/
+tensorboard/
+events.out.tfevents.*
+
+# IDE, OS, and local settings
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
