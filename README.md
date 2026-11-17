@@ -31,6 +31,8 @@ The reconstruction code checks that `ultralytics==8.4.92` is installed. It build
 
 ## Dataset and pretrained weights
 
+dataset: https://www.modelscope.cn/datasets/Tampoli726/tomato_flower
+
 Use a YOLO detection dataset with fixed, disjoint train/validation/test splits:
 
 ```text
